@@ -1,0 +1,10 @@
+const first_name = 'Angel';
+const last_name ='Leu';
+const age = 24;
+const dateOfBirth = '08/16/1995';
+const address = '422 Richard st.';
+console.log('First name:', first_name);
+console.log('Last name:', last_name);
+console.log('Age:', age);
+console.log('Birthday:', dateOfBirth);
+console.log('Address:', address);
