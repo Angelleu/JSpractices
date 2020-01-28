@@ -1,0 +1,12 @@
+let city = 'Winnipeg';
+let population = 778500;
+let climate = undefined;
+let province = 'Manitoba';
+let region = true;
+let living = null;
+console.log('City', city,typeof(city));
+console.log('Population', population,typeof(population));
+console.log('CLimate', climate,typeof(climate));
+console.log('Province', province,typeof(province));
+console.log('Region', region,typeof(region));
+console.log('Living', living,typeof(living));
