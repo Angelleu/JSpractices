@@ -1,0 +1,13 @@
+const playerName = 'Partrik Laine is lame';
+const teams ='New Jersey Devils, New York Rangers, Winnipeg jets & Pittsburgh penguins';
+const message = 'Winnipeg is the best Canadian city, Go Winnipeg';
+const result1 = playerName.slice(0,-5);
+console.log(result1);
+const result2 = teams.slice(46,-22);
+console.log(result2);
+const result3 = message.slice(12,-26);
+console.log(result3);
+const result4 = message.slice(34,-9);
+console.log(result4);
+const template = result1.slice(0,13).toUpperCase()+result1.slice(-3)+' '+result3+result2.charAt(0).toUpperCase()+result2.slice(1)+' player'+result4+' '+ result2.charAt(0).toUpperCase()+result2.slice(1)+'!!';
+console.log(template);
