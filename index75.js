@@ -11,9 +11,19 @@ while (i<=10){
     // = i = i + 1, shorthand is i++;
     console.log(f)//1: 0; 2: 1; 3: 1; 4: 3; 5: 5
 }*/
-
+let f=0;
+let f1=-1;
+let f2=1;
+var i=1;
+while(i<=10){
+    f=f1+f2;
+    f1=f2;
+    f2=f;
+    i++;
+    console.log(f);
+}
 //Solution 2
-function fib(n){
+/*function fib(n){
     if (n == 0) {
         return 0;
     }
@@ -26,4 +36,4 @@ let result = '';
 for(i=0;i<15;i++){
     result += fib(i) + "  ";    
 }
-console.log(result);
+console.log(result);*/
