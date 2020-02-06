@@ -32,5 +32,12 @@ while(str.length<15){
     str += "*";
     console.log(str,str.length);
 }
+/*
+let str='';
+while (str.length < 15){
+    str = str + '*'
+    console.log(str)
+}
+*/
 
 
