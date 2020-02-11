@@ -9,9 +9,6 @@ const validateUser=function(username,password){
       }else{
           return 'Please input valid credentials';
       }
-    
  
-}
-
-    
+}   
 console.log(validateUser('mike','Nerd1979'));
